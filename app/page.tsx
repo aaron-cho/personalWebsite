@@ -62,7 +62,7 @@ export default function Home() {
               src="/profile.jpg"
               alt="A brief description of the image"
               style={{
-                width: "100%",
+                width: "20%",
                 maxWidth: "250px",
                 borderRadius: "10px",
               }}
@@ -71,7 +71,7 @@ export default function Home() {
               className="about-me"
               style={{
                 fontSize: 18,
-                width: "100%",
+                width: "35%",
                 maxWidth: "400px",
                 lineHeight: 1.6,
               }}
@@ -88,7 +88,7 @@ export default function Home() {
             <iframe
               src="https://drive.google.com/file/d/1vhPsJVZ4k1Aim0iZVvka9iQ3kJdAGcob/preview"
               width="40%"
-              height="340"
+              height="350"
               style={{ border: "none", borderRadius: "8px" }}
             ></iframe>
           </div>
