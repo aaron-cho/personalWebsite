@@ -24,48 +24,48 @@ body {
 
 body {
   margin: 0;
-  font-family: "Arial", sans-serif; /* Change to your preferred font */
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark text color */
+  font-family: "Inter", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 header {
-  background-color: #aba2e5; /* Green background for header */
-  color: white; /* White text color */
+  background-color: #aba2e5;
+  color: white;
   padding: 20px;
   text-align: center;
 }
 
 nav ul {
-  list-style-type: none; /* Remove bullet points */
+  list-style-type: none;
   padding: 0;
 }
 
 nav ul li {
-  display: inline; /* Display list items inline */
-  margin: 0 15px; /* Space between items */
+  display: inline;
+  margin: 0 15px;
 }
 
 nav a {
-  color: white; /* White text for links */
-  text-decoration: none; /* Remove underline */
+  color: white;
+  text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: white; /* White background for sections */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #aba2e5; /* Same green as header */
+  background-color: #aba2e5;
   color: white;
 }

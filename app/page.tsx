@@ -53,7 +53,7 @@ export default function Home() {
           <div
             style={{
               display: "flex",
-              alignItems: "flex-start",
+              alignItems: "center",
               justifyContent: "space-between",
               marginTop: "10px",
             }}
@@ -62,7 +62,8 @@ export default function Home() {
               src="/profile.jpg"
               alt="A brief description of the image"
               style={{
-                width: "250px",
+                width: "100%",
+                maxWidth: "250px",
                 borderRadius: "10px",
               }}
             />
@@ -70,9 +71,9 @@ export default function Home() {
               className="about-me"
               style={{
                 fontSize: 18,
-                width: 400,
+                width: "100%",
+                maxWidth: "400px",
                 lineHeight: 1.6,
-                marginLeft: -20,
               }}
             >
               Hey there 👋 I’m Aaron, a senior at Stanford University finishing
@@ -86,7 +87,7 @@ export default function Home() {
             </p>
             <iframe
               src="https://drive.google.com/file/d/1vhPsJVZ4k1Aim0iZVvka9iQ3kJdAGcob/preview"
-              width="450"
+              width="40%"
               height="340"
               style={{ border: "none", borderRadius: "8px" }}
             ></iframe>
@@ -133,7 +134,7 @@ export default function Home() {
           </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div style={{ marginRight: "20px", flex: "1" }}>
-              <h3>Custom Job Application Page</h3>
+              <h3>Job Application Page</h3>
               <p>
                 With Greenhouse API integration. Built with Typescript and
                 Next.js.
@@ -165,7 +166,7 @@ export default function Home() {
 
             <div style={{ flex: "1" }}>
               <h3>Bay Area Restaurants Interactive Map</h3>
-              <p>Data from Yelp API. Built with Javascript D3. Next.js.</p>
+              <p>Data from Yelp API. Built with Javascript D3.</p>
               <div style={{ position: "relative" }}>
                 <iframe
                   width="100%"
