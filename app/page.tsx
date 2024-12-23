@@ -47,14 +47,14 @@ export default function Home() {
           <i className="fab fa-linkedin" style={{ fontSize: "24px" }}></i>
         </a>
       </header>
-      <main>
+      <main style={{ padding: "0 20px" }}>
         <section id="about">
-          <h2>About Me</h2>
+          <h2 style={{ marginTop: 0 }}>About Me</h2>
           <div
             style={{
               display: "flex",
               alignItems: "center",
-              justifyContent: "space-between",
+              justifyContent: "flex-start",
               marginTop: "10px",
             }}
           >
@@ -74,6 +74,7 @@ export default function Home() {
                 width: "35%",
                 maxWidth: "400px",
                 lineHeight: 1.6,
+                marginLeft: "20px",
               }}
             >
               Hey there 👋 I’m Aaron, a senior at Stanford University finishing
@@ -89,27 +90,32 @@ export default function Home() {
               src="https://drive.google.com/file/d/1vhPsJVZ4k1Aim0iZVvka9iQ3kJdAGcob/preview"
               width="40%"
               height="350"
-              style={{ border: "none", borderRadius: "8px" }}
+              style={{
+                border: "none",
+                borderRadius: "8px",
+                marginLeft: "20px",
+              }}
             ></iframe>
           </div>
         </section>
         <section id="projects">
-          <h2>My Projects</h2>
+          <h2 style={{ marginTop: 0 }}>My Projects</h2>
           <div
             style={{
               display: "flex",
-              justifyContent: "space-between",
+              // justifyContent: "space-between",
+              justifyContent: "center",
               marginBottom: "20px",
             }}
           >
             <div style={{ marginRight: "20px", flex: "1" }}>
-              <h3>DiarWe</h3>
-              <p>
+              <h3 style={{ textDecoration: "underline" }}>DiarWe</h3>
+              <p style={{ width: "90%" }}>
                 Bridging generations through interactive journaling. Built with
                 React Native and Supabase.
               </p>
               <iframe
-                width="100%"
+                width="90%"
                 height="315"
                 src="https://youtube.com/embed/qro8K1gLR4g"
                 allowFullScreen
@@ -118,13 +124,13 @@ export default function Home() {
             </div>
 
             <div style={{ flex: "1" }}>
-              <h3>MealBuds</h3>
-              <p>
+              <h3 style={{ textDecoration: "underline" }}>MealBuds</h3>
+              <p style={{ width: "90%" }}>
                 Meeting new Stanford students via meal-matching. Built with
                 React Native and Firebase.
               </p>
               <iframe
-                width="100%"
+                width="90%"
                 height="315"
                 src="https://www.youtube.com/embed/49_wBIw5pD0"
                 allowFullScreen
@@ -134,14 +140,16 @@ export default function Home() {
           </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div style={{ marginRight: "20px", flex: "1" }}>
-              <h3>Job Application Page</h3>
-              <p>
+              <h3 style={{ textDecoration: "underline" }}>
+                Job Application Page
+              </h3>
+              <p style={{ width: "90%" }}>
                 With Greenhouse API integration. Built with Typescript and
                 Next.js.
               </p>
               <div style={{ position: "relative" }}>
                 <iframe
-                  width="100%"
+                  width="90%"
                   height="315"
                   src="https://greenhouse-integration-dtrx.vercel.app/apply"
                   allowFullScreen
@@ -165,11 +173,15 @@ export default function Home() {
             </div>
 
             <div style={{ flex: "1" }}>
-              <h3>Bay Area Restaurants Interactive Map</h3>
-              <p>Data from Yelp API. Built with Javascript D3.</p>
+              <h3 style={{ textDecoration: "underline" }}>
+                Bay Area Restaurants Interactive Map
+              </h3>
+              <p style={{ width: "90%" }}>
+                Data from Yelp API. Built with Javascript D3.
+              </p>
               <div style={{ position: "relative" }}>
                 <iframe
-                  width="100%"
+                  width="90%"
                   height="315"
                   src="https://observablehq.com/embed/0d37af62a52289cd"
                   allowFullScreen
@@ -194,7 +206,7 @@ export default function Home() {
           </div>
         </section>
         <section id="contact">
-          <h2>Contact Info</h2>
+          <h2 style={{ marginTop: 0 }}>Contact Info</h2>
           <p>
             <strong>Email:</strong> aaron626@stanford.edu
           </p>
